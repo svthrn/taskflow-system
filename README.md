@@ -1,23 +1,23 @@
-# TaskFlow - Task Management System
+# TaskFlow - Система управления задачами
 
-## Project Description
-Web application for personal and team task management with Kanban board.
+## Описание проекта
+Веб-приложение для управления личными и командными задачами с канбан-доской.
 
-## Features
-- Task creation and management
-- Status tracking (To Do, In Progress, Done) 
-- Assign tasks to team members
-- REST API for tasks
-- Due date tracking
+## Функциональность
+- Создание и управление задачами
+- Отслеживание статусов (К выполнению, В работе, Завершено)
+- Назначение задач участникам команды
+- REST API для работы с задачами
+- Отслеживание сроков выполнения
 
-## Technology Stack
+## Технологический стек
 - Python 3.x
-- Flask web framework
-- SQLite database
+- Flask веб-фреймворк
+- База данных SQLite
 - SQLAlchemy ORM
-- Git version control
+- Система контроля версий Git
 
-## Project Structure
+## Структура проекта
 project_Karandasheva/   
 ├── app/  
 │ ├── init.py # Flask application factory   
@@ -28,34 +28,29 @@ project_Karandasheva/
 └── run.py # Application entry point  
 
 
-## Quick Start
 
-### Prerequisites
+## Быстрый старт
+
+### Предварительные требования
 - Python 3.8+
 - Git
 
-### Installation & Running
+### Установка и запуск
 ```bash
-# Clone repository
+# Клонировать репозиторий
 git clone https://github.com/seruru/taskflow-system.git
 cd project_Karandasheva
 
-# Create virtual environment
+# Создать виртуальное окружение
 python3 -m venv venv
 source venv/bin/activate
 
-# Install dependencies
+# Установить зависимости
 pip install -r requirements.txt
 
-# Start development server
+# Запустить сервер разработки
 python run.py
 
-# Health check (in new terminal)
+# Проверить работу (в новом терминале)
 python3 -c "import urllib.request; print(urllib.request.urlopen('http://127.0.0.1:5000/').read().decode())"
 ```
-
-### API Endpoints
-GET / - Health check  
-GET /api/tasks - Get all tasks  
-POST /api/tasks - Create new task  
-
