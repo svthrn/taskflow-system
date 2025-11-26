@@ -13,20 +13,20 @@
 ## Технологический стек
 - Python 3.x
 - Flask веб-фреймворк
-- База данных SQLite
 - SQLAlchemy ORM
 - Система контроля версий Git
 
 ## Структура проекта
+```
 project_Karandasheva/   
 ├── app/  
-│ ├── init.py # Flask application factory   
-│ ├── models.py # Database models (Task)   
-│ └── routes.py # API endpoints  
-├── config.py # Application configuration  
-├── requirements.txt # Python dependencies  
-└── run.py # Application entry point  
-
+│ ├── init.py
+│ ├── models.py  
+│ └── routes.py   
+├── config.py  
+├── requirements.txt 
+└── run.py 
+```
 
 
 ## Быстрый старт
