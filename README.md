@@ -54,3 +54,12 @@ python run.py
 # Проверить работу (в новом терминале)
 python3 -c "import urllib.request; print(urllib.request.urlopen('http://127.0.0.1:5000/').read().decode())"
 ```
+
+### UML-диаграммы
+
+<img width="832" height="402" alt="image" src="https://github.com/user-attachments/assets/8d1ce1ee-d3d8-4060-9bd0-84aaffd3f3ff" />
+
+<img width="715" height="580" alt="image" src="https://github.com/user-attachments/assets/715ce722-a603-48c9-9c6a-32b1b3ae8b81" />
+
+
+
